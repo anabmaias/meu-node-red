@@ -1,0 +1,11 @@
+{
+  "name": "meu-node-red-nuvem",
+  "description": "Node-RED rodando no Render",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-red": "^3.1.0"
+  },
+  "scripts": {
+    "start": "node-red --userDir . --port $PORT settings.js"
+  }
+}
